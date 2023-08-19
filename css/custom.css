@@ -1,0 +1,18 @@
+.bg-pink {
+    background-color: #b0718b !important
+}
+.bg-dark-pink {
+    background-color: #f29cbd !important
+}
+.text-pink {
+    color: #ffe8f8 !important
+}
+.text-dark-pink {
+    color: #2c005b !important
+}
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
