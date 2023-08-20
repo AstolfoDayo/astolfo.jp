@@ -1,18 +1,33 @@
-.bg-pink {
-    background-color: #d75588 !important
-}
 .bg-dark-pink {
-    background-color: #f29cbd !important
+    background: #d75588 !important;
+}
+.bg-header {
+    background: linear-gradient(#bd4e88, #ec8bbf) !important;
+}
+.bg-footer {
+    background: linear-gradient(#ec8bbf, #bd4e88) !important;
+}
+.bg-pink {
+    background: #ef97c3 !important;
 }
 .text-pink {
-    color: #ffe8f8 !important
+    color: #ffe8f8 !important;
 }
 .text-dark-pink {
-    color: #2c005b !important
+    color: #2c005b !important;
+}
+.header {
+    position: fixed !important;
+    left: 0;
+    top: 0;
+    width: 100%;
 }
 .footer {
     position: fixed;
     left: 0;
     bottom: 0;
     width: 100%;
+}
+.header-blank {
+    padding-top: 15% !important;
 }

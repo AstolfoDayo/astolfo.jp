@@ -4,16 +4,15 @@
     <meta charset="utf-8">
     <title>AstolfoDayo</title>
     <link href="css/custom.css" rel="stylesheet">
-    <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
   </head>
 
-  <body class="bg-dark-pink">
+  <body class="bg-pink">
 
   <!-- Navigation Bar -->
-  <nav class="navbar navbar-expand-lg navbar-light bg-pink" id="home">
+  <nav class="header navbar navbar-expand-lg navbar-light bg-header" id="home">
     <a href="#"><img src="image/astolfo.png" height="100" width="100" class="img-fluid px-4 rounded-circle" alt="..."></a>
     <a class="navbar-brand text-pink" href="#"><strong>AstolfoDayo</strong></a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -25,25 +24,39 @@
           <a class="nav-link text-center text-pink" href="#home">Home <span class="sr-only"></span></a>
         </li>
         <li class="nav-item active">
-          <a class="nav-link text-center text-pink" href="#introduction">Introduction</a>
+          <a class="nav-link text-center text-pink" href="#introduce">いんとろでゅーす</a>
         </li>
         <li class="nav-item active">
-          <a class="nav-link text-center text-pink" href="#how-to-join">How to join</a>
+          <a class="nav-link text-center text-pink" href="#how-to-join">プロジェクトへの参加</a>
         </li>
       </ul>
     </div>
   </nav>
 
-  <!-- Introduction -->
-  <div class="container my-5 text-dark-pink" id="introduction">
+  <!-- Introduce -->
+  <div class="container header-blank text-dark-pink" id="introduce">
     <div class="row">
       <div class="col">
         <img src="icon.png" height="200", width="200" alt="...">
       </div>
       <div class="col-9">
-        <h2 class="py-4">Introduce</h2>
-        This server is in collaboration with the GitHub organization, AstolfoDayo.<br>
-        Developers of all kinds can join the organization, write code, and contribute to projects!
+        <h2 class="py-4">いんとろでゅーす</h2>
+        このサーバーはGItHubの組織AstolfoDayoと連携しています。<br>
+        どの開発者でも参加でき、コードを書いてこんとりびゅーとできます!
+      </div>
+    </div>
+  </div>
+
+  <!-- Discord -->
+  <div class="container my-5 text-dark-pink" id="discord">
+    <div class="row">
+      <div class="col">
+        <img src="icon.png" height="200", width="200" alt="...">
+      </div>
+      <div class="col-9">
+        <h2 class="py-4">いんとろでゅーす</h2>
+        このサーバーはGItHubの組織AstolfoDayoと連携しています。<br>
+        どの開発者でも参加でき、コードを書いてこんとりびゅーとできます!
       </div>
     </div>
   </div>
@@ -52,14 +65,14 @@
   <div class="container my-5 text-dark-pink" id="how-to-join">
     <div class="row">
       <div class="col-9">
-        <h2 class="py-4">How to join</h2>
-        I would be very happy if you show interest! The participation conditions are below.
+        <h2 class="py-4">プロジェクトへの参加</h2>
+        興味を持ってくれた方はぜひ参加してほしいです! 参加条件は以下のようになります。
         <ul class="py-2">
-          <li>Pray to Astolfo Kawaii (｡>﹏<｡)</li>
-          <li>Own a GitHub account</li>
-          <li>Can write some code</li>
+          <li>アストルフォが可愛いと思える (｡>﹏<｡)</li>
+          <li>GitHubアカウントの所持</li>
+          <li>コードが書ける</li>
         </ul>
-        Contact for apply: <a href="https://discord.com/invite/FcTbwKcbnm" target="_blank">Discord Server</a>
+        参加は<a href="https://discord.com/invite/FcTbwKcbnm" target="_blank">Discordサーバー</a>から申請を行ってください。
       </div>
       <div class="col py-5">
         <img src="image/astolfo2.png" alt="..." height="200" width="200">
@@ -69,7 +82,8 @@
 
   <hr class="text-dark-pink">
 
-  <footer class="footer bg-pink text-center text-pink">
+  <!--- Footer --->
+  <footer class="footer bg-footer text-center text-pink">
     <div class="row">
       <div class="col-9 py-4">
         <p class="text-pink"><strong>(C) 2023 AstolfoDayo</strong></p>
