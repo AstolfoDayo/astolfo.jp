@@ -16,18 +16,4 @@
 .text-dark-pink {
     color: #2c005b !important;
 }
-.header {
-    position: fixed !important;
-    left: 0;
-    top: 0;
-    width: 100%;
-}
-.footer {
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-}
-.header-blank {
-    padding-top: 15% !important;
-}
+

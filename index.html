@@ -1,99 +1,108 @@
 <!DOCTYPE html>
 <html lang="ja">
-  <head>
-    <meta charset="utf-8">
-    <title>AstolfoDayo</title>
-    <link href="css/custom.css" rel="stylesheet">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
-  </head>
+<head>
+  <meta charset="utf-8">
+  <title>AstolfoDayo</title>
+  <link href="css/custom.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+</head>
 
-  <body class="bg-pink">
+<body class="bg-pink">
 
-  <!-- Navigation Bar -->
-  <nav class="header navbar navbar-expand-lg navbar-light bg-header" id="home">
-    <a href="#"><img src="image/astolfo.png" height="100" width="100" class="img-fluid px-4 rounded-circle" alt="..."></a>
-    <a class="navbar-brand text-pink" href="#"><strong>AstolfoDayo</strong></a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarNav">
-      <ul class="navbar-nav">
-        <li class="nav-item active">
-          <a class="nav-link text-center text-pink" href="#home">Home <span class="sr-only"></span></a>
-        </li>
-        <li class="nav-item active">
-          <a class="nav-link text-center text-pink" href="#introduce">いんとろでゅーす</a>
-        </li>
-        <li class="nav-item active">
-          <a class="nav-link text-center text-pink" href="#how-to-join">プロジェクトへの参加</a>
-        </li>
+<!-- Navigation Bar -->
+<nav class="navbar navbar-expand-lg navbar-light bg-header" id="home">
+  <a href="#"><img src="image/astolfo.png" height="100" width="100" class="img-fluid px-4 rounded-circle" alt="..."></a>
+  <a class="navbar-brand text-pink" href="#"><strong>AstolfoDayo</strong></a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNav">
+    <ul class="navbar-nav">
+      <li class="nav-item active">
+        <a class="nav-link text-center text-pink" href="#home">Home <span class="sr-only"></span></a>
+      </li>
+      <li class="nav-item active">
+        <a class="nav-link text-center text-pink" href="#introduce">いんとろでゅーす</a>
+      </li>
+      <li class="nav-item active">
+        <a class="nav-link text-center text-pink" href="#discord">Discord</a>
+      </li>
+      <li class="nav-item active">
+        <a class="nav-link text-center text-pink" href="#how-to-join">プロジェクトへの参加</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+
+<!-- Introduce -->
+<div class="container header-blank text-dark-pink" id="introduce">
+  <div class="row">
+    <div class="col">
+      <img src="icon.png" height="200", width="200" alt="...">
+    </div>
+    <div class="col-9">
+      <h2 class="py-4">いんとろでゅーす</h2>
+      このサーバーはGItHubの組織AstolfoDayoと連携しています。<br>
+      どの開発者でも参加でき、コードを書いてこんとりびゅーとできます!
+    </div>
+  </div>
+</div>
+
+<hr class="text-dark-pink">
+
+<!-- Discord -->
+<div class="container my-5 text-dark-pink" id="discord">
+  <div class="row">
+    <div class="col-9">
+      <h2 class="py-4">Discordサーバー</h2>
+      Discordサーバーあります! 色んな人と喋れるので絶対に入るべきサーバーです!
+      <br>
+      <br>
+      <a class="btn btn-secondary" href="https://discord.com/invite/FcTbwKcbnm" target="_blank">Discordに参加</a>
+    </div>
+    <div class="col">
+      <img src="image/astolfo3.png" height="300" alt="...">
+    </div>
+  </div>
+</div>
+
+<hr class="text-dark-pink">
+
+<!-- How to join -->
+<div class="container my-5 text-dark-pink" id="how-to-join">
+  <div class="row">
+    <div class="col py-5">
+      <img src="image/astolfo2.png" alt="..." height="200" width="200">
+    </div>
+    <div class="col-9">
+      <h2 class="py-4">プロジェクトへの参加</h2>
+      興味を持ってくれた方はぜひ参加してほしいです! 参加条件は以下のようになります。
+      <ul class="py-2">
+        <li>アストルフォが可愛いと思える (｡>﹏<｡)</li>
+        <li>GitHubアカウントの所持</li>
+        <li>コードが書ける</li>
       </ul>
-    </div>
-  </nav>
-
-  <!-- Introduce -->
-  <div class="container header-blank text-dark-pink" id="introduce">
-    <div class="row">
-      <div class="col">
-        <img src="icon.png" height="200", width="200" alt="...">
-      </div>
-      <div class="col-9">
-        <h2 class="py-4">いんとろでゅーす</h2>
-        このサーバーはGItHubの組織AstolfoDayoと連携しています。<br>
-        どの開発者でも参加でき、コードを書いてこんとりびゅーとできます!
-      </div>
+      参加は<a href="https://discord.com/invite/FcTbwKcbnm" target="_blank">Discordサーバー</a>から申請を行ってください。
     </div>
   </div>
+</div>
 
-  <!-- Discord -->
-  <div class="container my-5 text-dark-pink" id="discord">
-    <div class="row">
-      <div class="col">
-        <img src="icon.png" height="200", width="200" alt="...">
-      </div>
-      <div class="col-9">
-        <h2 class="py-4">いんとろでゅーす</h2>
-        このサーバーはGItHubの組織AstolfoDayoと連携しています。<br>
-        どの開発者でも参加でき、コードを書いてこんとりびゅーとできます!
-      </div>
+<hr class="text-dark-pink">
+
+<!--- Footer --->
+<footer class="bg-footer text-center text-pink">
+  <div class="row">
+    <div class="col-9 py-4">
+      <p class="text-pink"><strong>(C) 2023 AstolfoDayo</strong></p>
+    </div>
+    <div class="col py-4">
+      <a class="p-2" href="https://github.com/AstolfoDayo" target="_blank"><img src="image/github.png" height="30" alt=""></a>
+      <a class="p-2" href="https://discord.com/invite/FcTbwKcbnm" target="_blank"><img src="image/discord.png" height="30" alt=""></a>
+      <a class="p-2" href="https://github.com/ramuneremonedo" target="_blank"><img src="image/twitter.png" height="30" alt=""></a>
     </div>
   </div>
-
-  <!-- How to join -->
-  <div class="container my-5 text-dark-pink" id="how-to-join">
-    <div class="row">
-      <div class="col-9">
-        <h2 class="py-4">プロジェクトへの参加</h2>
-        興味を持ってくれた方はぜひ参加してほしいです! 参加条件は以下のようになります。
-        <ul class="py-2">
-          <li>アストルフォが可愛いと思える (｡>﹏<｡)</li>
-          <li>GitHubアカウントの所持</li>
-          <li>コードが書ける</li>
-        </ul>
-        参加は<a href="https://discord.com/invite/FcTbwKcbnm" target="_blank">Discordサーバー</a>から申請を行ってください。
-      </div>
-      <div class="col py-5">
-        <img src="image/astolfo2.png" alt="..." height="200" width="200">
-      </div>
-    </div>
-  </div>
-
-  <hr class="text-dark-pink">
-
-  <!--- Footer --->
-  <footer class="footer bg-footer text-center text-pink">
-    <div class="row">
-      <div class="col-9 py-4">
-        <p class="text-pink"><strong>(C) 2023 AstolfoDayo</strong></p>
-      </div>
-      <div class="col py-4">
-        <a class="p-2" href="https://github.com/AstolfoDayo" target="_blank"><img src="image/github.png" height="30" alt=""></a>
-        <a class="p-2" href="https://discord.com/invite/FcTbwKcbnm" target="_blank"><img src="image/discord.png" height="30" alt=""></a>
-        <a class="p-2" href="https://github.com/ramuneremonedo" target="_blank"><img src="image/twitter.png" height="30" alt=""></a>
-      </div>
-    </div>
-  </footer>
-  </body>
+</footer>
+</body>
 </html>
